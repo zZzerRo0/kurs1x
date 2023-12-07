@@ -1,0 +1,350 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .block1, .block2, .block3, .block4 {
+    height: 1024px; /* 50% высоты экрана для каждого блока */
+    width: 100%;
+  }
+  
+  .block1 {
+    background-color: #000000; /* Цвет для блока 1 (можете заменить на нужный вам цвет) */
+  }
+
+  .block3{
+    background: linear-gradient(180deg, #D53005 0%, #000 6.04%);
+  }
+
+.header {
+    padding: 70px; /* Внутренние отступы хедера */
+    display: flex;
+    align-items: center; /* Выравнивание по центру по вертикали */
+    color: white; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    margin-right: 300px; /* Отступ справа между элементами меню */
+}
+
+.block4{
+    background: #D53005;
+}
+  
+.logo {
+    font-size: 800px;
+    width: 80px; /* Ширина логотипа */
+    height: 80px; /* Высота логотипа */
+    margin-right: 190px; /* Отступ справа от логотипа */
+}
+  
+.menu {
+    color: white; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    margin-right: 150px; /* Отступ справа между элементами меню */
+    font-size: 30px;
+}
+
+.Musicblock1{
+    position: absolute;
+    top: 291px;
+    left: 135px;
+}
+
+.MusicText {
+    
+    font-family: 'Kenia', sans-serif;
+    width: 412px;
+    height: 264px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.MusicText2{
+    position: absolute;
+    top: 180%;
+    font-family: 'Istok Web', sans-serif;
+    width: 290px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+  
+
+
+/* тут будет чисто телефон сам с позицией абсолют он двигается где хочет что ли и от правого края 80пикселей а от вверха 122 */
+.iphone{
+    position: absolute; 
+    right: 80px;
+    top: 122px;
+}
+/* кабел такой же типо как айфон */
+.kabel{
+    position: absolute;
+    right: 0;
+    top: 855px;
+    right: 185px;
+}
+  
+.block2 {
+    background: #D53005;
+}
+
+.block2{
+    position: relative;
+}
+
+.textblok2{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    padding: 122px;
+}
+
+.disk{
+    position: absolute;
+    top: 179px;
+    right: 0;
+}
+
+.button-container {
+    padding: 122px; /* Отступы со всех сторон */
+    display: flex;
+    gap: 88px; /* Расстояние между кнопками */
+    flex-direction: column;
+}
+
+.button2{
+    font-family: 'Karla', sans-serif;
+    padding: 18px 77px;
+    width: 400px;
+    height: 88px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block3{
+    position: relative;
+}
+
+.about1{
+    position: absolute;
+    top: 88px;
+    left: 122px;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textblock3{
+    position: absolute;
+    top: 476px;
+    left: 375px;
+    width: 1024px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block4{
+    position: relative;
+}
+
+.store{
+    position: absolute;
+    top: 83px;
+    left: 122px;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttondownload {
+    position: absolute;
+    top: 136px;
+    padding: 110px; /* Отступы со всех сторон */
+    display: flex;
+    gap: 88px; /* Расстояние между кнопками */
+    flex-direction: column;
+}
+
+.download1{
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #000;
+}
+
+.download2{
+
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.70);
+    background: #E3E3E3;
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.mplayer{
+    position: absolute;
+    top: 557px;
+    left: 102px;
+    width: 369px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.textblock44{
+    top: 604px;
+    font-size: 19px;
+    left: 66px;
+    position: absolute;
+    width: 431px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+}
+
+.macbook{
+    position: absolute;
+    top: 287px;
+    right: 0px;
+}
+
+.block5{
+    width: 100%;
+    height: 536px;
+    background: linear-gradient(180deg, #D53005 0%, #000 4.01%);
+    position: relative;
+}
+
+.textblock5{
+    position: absolute;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    top: 120px;
+    left: 452px;
+
+}
+
+.b{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.b1{
+    margin-bottom: 24px;
+}
+
+.text3{
+    position: absolute;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    top: 120px;
+    left: 820px;
+}
+
+.b2{
+    margin-bottom: 24px;
+}
+
+.text5{
+    position: absolute;
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    top: 120px;
+    left: 1200px;
+}
+
+.b3{
+    margin-bottom: 24px;
+}
+
+
+.MusicTextcopy{
+    width: 138px;
+    height: 110px;
+    position: absolute;
+    top: 344px;
+    left: 110px;
+    color: #FFF;
+    font-family: Kenia;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kon{
+    top: 464px;
+    left: 106px;
+    position: absolute;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+}
+
+.textkon{
+    margin-right: 170px;
+    font-size: 183px;
+}
+
+
+
+
+
+
+
+
+
+  
